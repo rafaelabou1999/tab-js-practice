@@ -102,7 +102,7 @@
     grid-template-columns: repeat(3, 33%) !important;
     grid-template-rows: repeat(2, max(14vh, 200px)) !important;
     margin: 10% 4%;
-    padding-bottom: 12% !important;
+    padding-bottom: max(12%, 350px) !important;
     max-height: 300px;
   }
 
@@ -199,7 +199,7 @@
     grid-template-columns: repeat(2, 53%) !important;
     grid-template-rows: repeat(3, max(10vh, 130px)) !important;
     margin: 10% 4%;
-    padding-bottom: 12% !important;
+    padding-bottom: max(12%, 320px) !important;
     max-height: 300px;
   }
 
