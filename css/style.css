@@ -11,7 +11,7 @@ nav ul {
   background-color: #121c4d;
   position: absolute;
   top: 10%;
-  padding-top: 1.4%;
+  padding-top: 0.8%;
   right: 0;
   height: 10vh;
 }
@@ -54,7 +54,7 @@ main {
   position: relative;
 }
 main .title {
-  margin-top: 13%;
+  margin-top: max(11%, 100px);
   margin-left: 10%;
   font-size: 2.4rem;
   font-weight: 100;
@@ -109,4 +109,8 @@ footer {
   padding: 1%;
   background-color: #121c4d;
   color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
