@@ -46,7 +46,7 @@
     width: 42%;
   }
 footer{
-  bottom:-30% !important;
+  bottom:-40% !important;
 }
  
 }
@@ -113,7 +113,7 @@ footer{
   }
 
  footer{
-  bottom:-30% !important;
+  bottom:-80% !important;
 }
 }
 
@@ -179,6 +179,6 @@ footer{
     animation: show 0.5s forwards;
   }
 footer{
-  bottom:-30% !important;
+  bottom:-80% !important;
 }
 }
