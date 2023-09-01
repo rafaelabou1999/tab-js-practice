@@ -46,9 +46,7 @@
     width: 42%;
   }
 
-  footer {
-    bottom: -100% !important;
-  }
+ 
 }
 
 @media screen and (min-width: 500px) and (max-width: 1100px) {
@@ -112,10 +110,7 @@
     animation: show 0.5s forwards;
   }
 
-  footer {
-    position: absolute;
-    bottom: -100% !important;
-  }
+ 
 }
 
 @media screen and (max-width: 500px) {
@@ -179,8 +174,5 @@
     margin-bottom: 23%;
     animation: show 0.5s forwards;
   }
-  footer {
-    position: absolute;
-    bottom: -100% !important;
-  }
+
 }
