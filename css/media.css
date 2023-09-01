@@ -216,12 +216,12 @@
 
   .content .active {
     display: block !important;
-    margin-left: 5%;
+    margin-left: 6% !important;
     width: 90% !important;
     line-height: 1.5;
     border-left: 10px solid #121c4d;
     padding-left: 2%;
-    margin-top: min(15%, 10vh) !important;
+    margin-top: max(18%, 9vh) !important;
     margin-bottom: 23%;
     animation: show 0.5s forwards;
   }
