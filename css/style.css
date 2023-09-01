@@ -44,6 +44,7 @@ nav a {
   list-style: none;
 }
 .grid img {
+  cursor: pointer;
   width: 90%;
   height: 25vh;
   border: 2px solid #121c4d;
@@ -62,7 +63,14 @@ main .title {
   border-left: 6px solid grey;
   width: 42%;
 }
-
+.description {
+  margin-left: 11.5%;
+  margin-top: 1%;
+  background-color: rgb(214, 213, 211);
+  width: 30%;
+  padding: 1% 2% 1% 1%;
+  border-left: 10px solid #121c4d;
+}
 .content section {
   display: none;
 }
