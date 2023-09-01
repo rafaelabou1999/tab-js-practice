@@ -1,12 +1,65 @@
-@media screen and (min-width: 400px) and (max-width: 900px) {
+@media screen and (min-width: 1100px) and (max-width: 1600px) {
   nav ul {
-    height: 5vh !important;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #121c4d;
+    position: absolute;
+    top: 5% !important;
+    padding-top: 1.4%;
+    right: 0;
+    height: 7vh !important;
+  }
+
+  .grid ul {
+    display: grid;
+    grid-template-columns: 250px 250px !important;
+    grid-template-rows: repeat(3, 26vh) !important;
+    margin: 10% 4%;
+  }
+
+  .grid img {
+    width: 85% !important;
+    height: 24vh !important;
+    border: 2px solid #121c4d;
+    object-fit: cover;
+  }
+
+  .content .active {
+    display: block !important;
+    margin-left: 5%;
+    width: 70%;
+    border-left: 10px solid #121c4d;
+    padding-left: 2%;
+    margin-bottom: 10% !important;
+    margin-top: 4vh !important;
+
+    animation: show 0.5s forwards;
+  }
+
+  main .title {
+    margin-left: 10%;
+    font-size: 2.4rem;
+    font-weight: 100;
+    padding-left: 13px;
+    border-left: 6px solid grey;
+    width: 42%;
+  }
+
+  footer {
+    bottom: -100% !important;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1100px) {
+  nav ul {
+    height: 6vh !important;
   }
 
   nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: min(3vw, 28px) !important;
+    font-size: min(3vw, 14px) !important;
     font-weight: 500;
     text-transform: uppercase;
   }
@@ -16,7 +69,6 @@
   }
 
   main .title {
-    margin-top: 22% !important;
     margin-left: 5% !important;
     font-size: 1.9rem !important;
     font-weight: 100;
@@ -59,11 +111,16 @@
     margin-bottom: 23%;
     animation: show 0.5s forwards;
   }
+
+  footer {
+    position: absolute;
+    bottom: -100% !important;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   nav ul {
-    height: 3vh !important;
+    height: 5vh !important;
   }
 
   nav a {
@@ -79,7 +136,6 @@
   }
 
   main .title {
-    margin-top: 40% !important;
     margin-left: 5% !important;
     font-size: 1.9rem !important;
     font-weight: 100;
@@ -122,5 +178,9 @@
     margin-top: max(15%, 8vh) !important;
     margin-bottom: 23%;
     animation: show 0.5s forwards;
+  }
+  footer {
+    position: absolute;
+    bottom: -100% !important;
   }
 }
