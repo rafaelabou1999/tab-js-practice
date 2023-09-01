@@ -12,3 +12,15 @@ imgs.forEach((img, index) => {
     activeSection(index);
   });
 });
+
+const textImg = document.querySelectorAll(".name");
+const coloring = document.querySelector(".coloring");
+const people = document.querySelectorAll(".person");
+imgs.forEach((img) => {
+  img.addEventListener("click", () => {
+    people.forEach((person) => {
+      person.classList.remove("coloring");
+    });
+    img.classList.add("coloring");
+  });
+});
