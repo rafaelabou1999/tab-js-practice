@@ -110,16 +110,20 @@ main .title {
 
 .coloring {
   color: white;
+
   animation: putColor 0.3s forwards;
 }
 
+.coloring .name {
+  background-color: #121c4d;
+}
 @keyframes putColor {
   from {
     color: black;
     transform: translate3d(-30px, 0, 0);
   }
   to {
-    color: #1532c1;
+    color: #ffffff;
     transform: translate3d(0, 0, 0);
   }
 }
