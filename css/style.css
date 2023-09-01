@@ -13,7 +13,7 @@ nav ul {
   top: 10%;
   padding-top: 0.8%;
   right: 0;
-  height: 10vh;
+  height: min(10vh, 35px) !important;
 }
 
 nav ul li {
@@ -55,7 +55,7 @@ main {
   position: relative;
 }
 main .title {
-  margin-top: max(11%, 100px);
+  margin-top: max(13%, 120px);
   margin-left: 10%;
   font-size: 2.4rem;
   font-weight: 100;
@@ -91,6 +91,38 @@ main .title {
   line-height: 1.5;
 }
 
+.person {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  bottom: 7%;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+  padding-left: 4%;
+  padding-top: 2%;
+  border: 1px solid black;
+  right: 15%;
+  height: 4vh;
+  transition: all 0.5s ease-in;
+}
+
+.coloring {
+  color: white;
+  animation: putColor 0.3s forwards;
+}
+
+@keyframes putColor {
+  from {
+    color: black;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    color: #1532c1;
+    transform: translate3d(0, 0, 0);
+  }
+}
 @keyframes show {
   from {
     opacity: 0;
