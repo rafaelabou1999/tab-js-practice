@@ -45,7 +45,9 @@
     border-left: 6px solid grey;
     width: 42%;
   }
-
+footer{
+  bottom:-30% !important;
+}
  
 }
 
@@ -110,7 +112,9 @@
     animation: show 0.5s forwards;
   }
 
- 
+ footer{
+  bottom:-30% !important;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -174,5 +178,7 @@
     margin-bottom: 23%;
     animation: show 0.5s forwards;
   }
-
+footer{
+  bottom:-30% !important;
+}
 }
