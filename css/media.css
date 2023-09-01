@@ -36,7 +36,14 @@
 
     animation: show 0.5s forwards;
   }
-
+  .description {
+    margin-left: 11.5% !important;
+    margin-top: 1%;
+    background-color: rgb(214, 213, 211);
+    width: 30% !important;
+    padding: 1% 2% 1% 1%;
+    border-left: 10px solid #121c4d;
+  }
   main .title {
     margin-left: 10%;
     font-size: 2.4rem;
@@ -97,6 +104,15 @@
     flex-direction: column !important;
   }
 
+  .description {
+    margin-left: 8.5% !important;
+    margin-top: 1%;
+    background-color: rgb(214, 213, 211);
+    width: 50% !important;
+    padding: 1% 2% 1% 1%;
+    border-left: 10px solid #121c4d;
+  }
+
   .content .active {
     display: block !important;
     margin-left: 5%;
@@ -140,7 +156,14 @@
     border-left: 6px solid grey;
     width: 92% !important;
   }
-
+  .description {
+    margin-left: 8.5% !important;
+    margin-top: 1%;
+    background-color: rgb(214, 213, 211);
+    width: 60% !important;
+    padding: 1% 2% 1% 1%;
+    border-left: 10px solid #121c4d;
+  }
   .grid {
     margin-top: -6% !important;
     margin-left: 2% !important;
