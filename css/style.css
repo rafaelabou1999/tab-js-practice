@@ -104,13 +104,9 @@ main .title {
   width: 50%;
 }
 
-footer {
+.footer {
   text-align: center;
   padding: 1%;
   background-color: #121c4d;
   color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
